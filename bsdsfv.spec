@@ -28,7 +28,7 @@ kontrolne. Program u¿ywa algorytmu CRC32.
 %build
 %{__make} \
     CFLAGS="%{rpmcflags}" \
-    CC=%{__cc}
+    CC="%{__cc}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
@@ -41,5 +41,5 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%attr(755,root,root) %{_bindir}/*
 %doc README MANUAL
+%attr(755,root,root) %{_bindir}/*
