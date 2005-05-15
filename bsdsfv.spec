@@ -5,7 +5,7 @@ Version:	1.18
 Release:	1
 License:	unknown
 Group:		Applications/File
-Source0:	http://dl.sourceforge.net/sourceforge/bsdsfv/%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/bsdsfv/%{name}-%{version}.tar.gz
 # Source0-md5:	381df19a827d5a20097ab95ea9e760fa
 Patch0:		%{name}-manual.patch
 URL:		http://bsdsfv.sourceforge.net/
