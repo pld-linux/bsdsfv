@@ -23,7 +23,7 @@ kontrolne. Program u¿ywa algorytmu CRC32.
 
 %prep
 %setup -q -n %{name}
-%patch -p0
+%patch0 -p0
 
 %build
 %{__make} \
