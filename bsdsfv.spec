@@ -1,5 +1,5 @@
 Summary:	Utility for handling .sfv checksum files
-Summary(pl.UTF-8):   Narzędzie do obsługi plików .sfv zawierających sumy kontrolne
+Summary(pl.UTF-8):	Narzędzie do obsługi plików .sfv zawierających sumy kontrolne
 Name:		bsdsfv
 Version:	1.18
 Release:	1
