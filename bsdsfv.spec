@@ -1,5 +1,5 @@
 Summary:	Utility for handling .sfv checksum files
-Summary(pl):	Narzêdzie do obs³ugi plików .sfv zawieraj±cych sumy kontrolne
+Summary(pl.UTF-8):   NarzÄ™dzie do obsÅ‚ugi plikÃ³w .sfv zawierajÄ…cych sumy kontrolne
 Name:		bsdsfv
 Version:	1.18
 Release:	1
@@ -16,10 +16,10 @@ Small utility for creating .sfv checksums. It also allows testing
 files against existing .sfv checksums. Program is using CRC32
 algorithm.
 
-%description -l pl
-Niewielkie narzêdzie do tworzenia sum kontrolnych w formacie .sfv.
-Pozwala równie¿ na testowanie plików w oparciu o istniej±ce sumy
-kontrolne. Program u¿ywa algorytmu CRC32.
+%description -l pl.UTF-8
+Niewielkie narzÄ™dzie do tworzenia sum kontrolnych w formacie .sfv.
+Pozwala rÃ³wnieÅ¼ na testowanie plikÃ³w w oparciu o istniejÄ…ce sumy
+kontrolne. Program uÅ¼ywa algorytmu CRC32.
 
 %prep
 %setup -q -n %{name}
